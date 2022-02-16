@@ -1,16 +1,16 @@
+.AppBoardContent {
+    margin: 30px auto;
+}
+
 .AppBoard {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     max-width: 680px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 30px;
+    background-color: aquamarine;
+    border-radius: 6px;
     box-sizing: border-box;
-}
-
-.AppBoard .card {
-    margin-right: 30px;
-}
-
-.AppBoard .card:last-child {
-    margin-right: 0;
 }

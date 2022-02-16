@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
 
-const Calc = () => {
+const Memo = () => {
     return (
         <div>
             test
         </div>
     );
 }
-export default Calc;
+export default Memo;
