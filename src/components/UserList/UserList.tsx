@@ -15,7 +15,7 @@ const UserList = () => {
     const [users, setUsers] = useState<user[]>([]);
 
     useEffect(() => {
-        axios.get('http://yamamu24.sakura.ne.jp/ApiServer/UserManagement/getUserList.php')
+        axios.get('http://localhost/ApiServer/UserManagement/getUserList.php')
             .then(res => {
                 setUsers(res.data)
             })
