@@ -1,0 +1,36 @@
+.Button01 {
+    display: inline-block;
+    width: 150px;
+    height: 32px;
+}
+
+.Button01 button {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Button01 button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.Button01 button:active {
+    transition: 0.2s;
+    transform: translate3d(0, 2px, 0);
+    box-shadow: none;
+}
+
+.Button01 button.white {
+    background-color: #FFFFFF;
+    color: #007BBB;
+    border: 1px solid #007BBB;
+}
+
+.Button01 button.blue {
+    background-color: #007BBB;
+    color: #FFFFFF;
+}

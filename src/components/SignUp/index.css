@@ -1,0 +1,42 @@
+.signUpFormPanel {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 24px rgb(0 0 0 / 10%);
+    background-color: #F0F8FF;
+}
+
+.signUpFormPanel .logoimg {
+    width: 100px;
+    height: 100px;
+}
+
+.signUpFormPanel .signUpFormDiv {
+    width: 100%;
+    padding: 30px 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.signUpFormPanel .signUpFormDiv .textBox01 {
+    margin: 10px 0;
+}
+
+.signUpFormPanel .signUpFormDiv .buttonArea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .signUpFormPanel {
+        height: 100%;
+    }
+}
